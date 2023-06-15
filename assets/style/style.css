@@ -11,6 +11,32 @@ header{
     margin: auto;
     text-align: center;
 }
+#contact{
+    list-style-type: none;
+}
+#contact img{
+    margin-right: 20px;
+}
 h1, h1, h3{
     text-transform: uppercase;
+}
+main{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.card h3{
+    font-family: 'Hubballi', cursive;
+}
+.card{
+    font-family: Montserrat;
+    margin: 10px;
+    border: 1px solid rgb(85, 79, 79);
+    border-radius: 15px;
+    padding: 20px;
 }
